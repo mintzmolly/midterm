@@ -1,0 +1,220 @@
+/* unvisited link */
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+	font-family: "Bungee Shade", cursive;
+	color: black;
+	font-weight: 200px;
+	font-style: bold;
+	font-size: 100px;
+	text-align: center;
+	text-underline-position: center
+}
+ 
+h2 {
+	border:none;
+  	border-top:1px dotted #f00;
+  	border-bottom:1px dotted #f00;
+  	border-left:1px dotted #f00;
+  	border-right:1px dotted #f00;
+  	color:#fff;
+  	background-color:#fff;
+  	height:1px;
+  	width:100%;
+
+	margin-top:0px;
+	font-family: "Bungee Shade", cursive;
+	color: #3498DB;
+	font-weight: 200px;
+	font-style: bold; 
+	font-size: 50px;
+	text-align: center;
+	text-underline-position: center
+}
+
+h3 {
+	font-family: "Merriweather", bold, cursive;
+	color: black;
+	font-weight: 200px;
+	font-style: bold;
+	font-size: 25px;
+	text-align: left;
+	text-underline-position: left
+} 
+
+h4 {
+	font-family: "Shrikhand", bold, cursive;
+	color: black;
+	font-weight: 200px;
+	font-size: 14px;
+	text-align: left;
+	text-underline-position: left
+} 
+
+p {
+	font-family: "Merriweather", sans-serif;
+	color: black;
+	font-size: 12px;
+	text-align: left;
+	text-underline-position: left;
+}
+
+#primary_nav_wrap
+{
+	border:none;
+  	border-top:1px dotted #f00;
+  	border-bottom:1px dotted #f00;
+  	color:#fff;
+  	background-color:#fff;
+  	height:1px;
+  	width:100%;
+	margin-top:50px;
+}
+
+#primary_nav_wrap ul
+{ 
+	list-style:center;
+	position:center;
+	float:center;
+	margin:0;
+	padding:10px
+}
+
+#primary_nav_wrap ul a
+{
+	display: block;
+	color:black;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:"Merriweather","Merriweather",Helvetica,Arial,sans-serif
+}
+
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+	background:#ddd
+}
+
+#primary_nav_wrap ul li:hover
+{
+	background:#f6f6f6
+}
+
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	padding:0
+}
+
+#primary_nav_wrap ul ul li
+{
+	float:none;
+	width:200px
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block
+}
+
+.input[type=text] {
+    width: 100px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+}
+
+.float-right {
+	float: left;
+}
+
+article { 
+	display: inline-table;
+	margin-top: 100px;
+	margin-left: 70px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border:bold;
+  	border-top:10px solid black;
+  	border-bottom:10px solid black;
+  	border-left:10px solid black;
+  	border-right:10px solid black;
+  	border-color:black;
+  	background-color:white;
+  	height: 200px;
+  	width: 500px;
+}
+
+#hfbody p {
+	margin-left: 40px;
+	margin-right: 40px;
+	line-height: 20px; 
+}
+
+#hfbody h3, h4 {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+ footer {
+ 	padding-top: 10px;
+ 	margin-top: 10px;
+	border:dotted;
+  	border-top:10px dotted red;
+  	border-bottom:10px dotted red;
+  	border-left:10px dotted red;
+  	border-right:10px dotted red;
+  	border color: red;
+  	padding top: 25px;
+ }
